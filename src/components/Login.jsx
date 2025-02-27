@@ -1,13 +1,13 @@
 import { FaGoogle, FaFacebook, FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import gradient from "../assets/Gradient.jpg";
 
 export default function Login() {
   return (
     <div
       className="flex items-center justify-center min-h-screen bg-cover bg-center"
       style={{
-        backgroundImage:
-          "url('https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2563.jpg?t=st=1740658190~exp=1740661790~hmac=1bdc4734f2d198c664d3fc51e2546538b3cb6018fa1ed245b9ff563c7f33e51d&w=1380')",
+        backgroundImage: `url(${gradient})`,
       }}
     >
       <div className="bg-white p-8 rounded-xl shadow-lg w-96 bg-opacity-90">
@@ -48,7 +48,7 @@ export default function Login() {
         <p className="text-center my-2 text-sm">
           Don't have an account{" "}
           <Link to="/signup" className="text-blue-700 hover:underline">
-            Sign up now 
+            Sign up now
           </Link>
         </p>
         <div className="my-6 text-gray-600 text-sm text-center">
