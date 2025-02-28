@@ -17,12 +17,12 @@ const Navbar = ({ toggleSidebar }) => {
       </div>
       <div className="flex gap-4">
         <Link to="/login">
-          <button className="bg-red-500 text-white px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gradient-to-r hover:from-red-500 hover:to-orange-500">
+          <button className="bg-red-500 text-white px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gradient-to-r hover:from-red-500 hover:to-orange-500 cursor-pointer">
             Login
           </button>
         </Link>
         <Link to="/signup">
-          <button className="bg-blue-500 text-white px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gradient-to-r hover:from-blue-500 hover:to-green-500">
+          <button className="bg-blue-500 text-white px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gradient-to-r hover:from-blue-500 hover:to-green-500 cursor-pointer">
             Signup
           </button>
         </Link>
