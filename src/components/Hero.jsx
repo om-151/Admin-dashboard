@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Card from "./Card";
+import Charts from "./Chart";
 
 const AdminDashboard = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -159,6 +160,11 @@ const AdminDashboard = () => {
             Admin Dashboard
           </h2>
           <Card />
+          <hr className="my-3" />
+          <h2 className="text-2xl font-bold text-blue-600">
+            Data Analytics
+          </h2>
+          <Charts />
           <hr className="my-3" />
           <input
             type="text"

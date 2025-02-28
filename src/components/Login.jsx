@@ -10,7 +10,7 @@ export default function Login() {
         backgroundImage: `url(${gradient})`,
       }}
     >
-      <div className="bg-white p-8 rounded-xl shadow-lg w-96 bg-opacity-90">
+      <div className="bg-white p-8 rounded-xl shadow-lg w-96 bg-opacity-90 m-5">
         <h2 className="text-2xl font-semibold text-center text-gray-800 mb-6">
           Login
         </h2>

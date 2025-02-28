@@ -7,6 +7,7 @@ import Signup from "./components/Signup";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Profile from "./components/Profile";
+import PageNotFound from "./components/PageNotFound";
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -27,6 +28,7 @@ function App() {
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />
               <Route path="/profile" element={<Profile />} />
+              <Route path="/*" element={<PageNotFound />} />
             </Routes>
           </main>
         </div>
